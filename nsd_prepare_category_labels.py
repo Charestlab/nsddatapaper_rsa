@@ -13,7 +13,7 @@ n_subjects = 8
 subs = ['subj0{}'.format(x+1) for x in range(n_subjects)]
 
 # setup some directories
-base_dir = op.join('/media')
+base_dir = op.join('/rds', 'projects', 'c')
 nsd_dir = op.join(base_dir, 'charesti-start', 'data', 'NSD')
 proj_dir = op.join(base_dir, 'charesti-start', 'projects', 'NSD')
 betas_dir = op.join(proj_dir, 'rsa')
