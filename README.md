@@ -1,8 +1,11 @@
 # nasdatapaper_rsa
 rsa analyses for the data paper
 
-this is a set of scripts that will process nsd fmri data
-and mask in a region of interest.
+this is a set of scripts that will process nsd fmri data,
+mask in a set of regions of interest along the ventral stream,
+compute representational dissimilarity matrices from all pairs
+condition activity patterns, and finally plot the TSNE 
+two-dimensional solutions for those RDMs.
 
 first, you need to compute the category labels with
 
