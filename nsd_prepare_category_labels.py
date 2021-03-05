@@ -1,7 +1,7 @@
 import os.path as op
 import numpy as np
 from nsd_access import NSDAccess
-from nsd_get_data import get_conditions
+from utils.nsd_get_data import get_conditions
 
 # number of sessions
 n_sessions = 40

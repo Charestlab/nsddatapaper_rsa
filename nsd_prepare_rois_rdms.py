@@ -5,8 +5,8 @@ import numpy as np
 import nibabel as nib
 from scipy.spatial.distance import pdist
 from nsd_access import NSDAccess
-from nsd_get_data import get_conditions, get_betas
-from utils import average_over_conditions
+from utils.nsd_get_data import get_conditions, get_betas
+from utils.utils import average_over_conditions
 
 """
     module to gather the region of interest rdms

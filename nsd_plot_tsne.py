@@ -11,7 +11,7 @@ from nsd_access import NSDAccess
 from nsd_get_data import get_conditions, get_labels
 from scipy.spatial.distance import squareform
 from sklearn import manifold
-from utils import category_dict, mds
+from utils.utils import category_dict, mds
 matplotlib.use('TkAgg')
 
 """[nsd_plot_tsne]
