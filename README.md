@@ -23,6 +23,10 @@ this will install the package and all other [required packages](requirements.txt
 pip install git+https://github.com/tknapen/nsd_access.git
 ```
 
+nsd_access is a convenient tool for quickly and easily access data from the 
+Natural Scenes Dataset. For more details and tutorials see the repo here: https://github.com/tknapen/nsd_access
+
+
 ### first, you need to compute the category labels with
 
 ```bash
