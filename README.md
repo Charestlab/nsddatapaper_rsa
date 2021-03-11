@@ -8,26 +8,38 @@ compute representational dissimilarity matrices from all pairs
 condition activity patterns, and finally plot the TSNE 
 two-dimensional solutions for those RDMs.
 
-## to install simply clone this repo, cd to it's directory and 
+### to install simply clone this repo, cd to it's directory and 
 
 ```bash
 python setupy.py develop
 ```
 
-## additionally, you may need to install tomas knapen's nsd_access
+### additionally, you may need to install tomas knapen's nsd_access
 
 ```bash
 pip install git+https://github.com/tknapen/nsd_access.git
 ```
 
-## first, you need to compute the category labels with
+### first, you need to compute the category labels with
 
-nsd_prepare_category_labels.py
+```bash
+python nsd_prepare_category_labels.py
+```
 
-## second, you need to prepare the masked betas in rois along the ventral stream with
+### second, you need to prepare the masked betas in rois along the ventral stream with
 
-nsd_prepare_rois_rdms.py
+```bash
+python nsd_prepare_rois_rdms.py 0
+```
 
-## finally, you can plot the TSNE or MDS with
+this will prepare RDMs for all the ROIs for subject 0, which is in fact
+NSD subj01.
 
-nsd_plot_tsne.py
+
+### finally, you can plot the TSNE or MDS with
+
+```bash
+python nsd_plot_tsne.py 0
+```
+
+this will create a series of plots from the paper, for subj01.
