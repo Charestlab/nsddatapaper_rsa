@@ -14,10 +14,10 @@ two-dimensional solutions for those RDMs.
 python setupy.py develop
 ```
 
-this will install the package and all the [requirements](requirements.txt)
+this will install the package and all other [required packages](requirements.txt).
 
 
-### additionally, you may need to install tomas knapen's nsd_access
+### additionally, you may need to install Tomas Knapen's nsd_access
 
 ```bash
 pip install git+https://github.com/tknapen/nsd_access.git
