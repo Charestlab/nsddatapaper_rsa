@@ -14,6 +14,9 @@ two-dimensional solutions for those RDMs.
 python setupy.py develop
 ```
 
+this will install the package and all the [requirements](requirements.txt)
+
+
 ### additionally, you may need to install tomas knapen's nsd_access
 
 ```bash
