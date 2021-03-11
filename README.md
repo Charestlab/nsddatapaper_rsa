@@ -27,6 +27,9 @@ nsd_access is a convenient tool for quickly and easily accessing data from the
 Natural Scenes Dataset. For more details and tutorials see the repo here: https://github.com/tknapen/nsd_access
 
 
+It might be worth familiarising yourself with the Natural Scenes Dataset before you begin too.
+You can do so with the [NSD Data Manual](https://cvnlab.slite.com/app/channels/CT9Fwl4_hc)
+
 ### first, you need to compute the category labels with
 
 ```bash
