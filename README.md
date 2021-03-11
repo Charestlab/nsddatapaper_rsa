@@ -8,6 +8,18 @@ compute representational dissimilarity matrices from all pairs
 condition activity patterns, and finally plot the TSNE 
 two-dimensional solutions for those RDMs.
 
+## to install simply clone this repo, cd to it's directory and 
+
+```bash
+python setupy.py develop
+```
+
+## additionally, you may need to install tomas knapen's nsd_access
+
+```bash
+pip install git+https://github.com/tknapen/nsd_access.git
+```
+
 ## first, you need to compute the category labels with
 
 nsd_prepare_category_labels.py

@@ -1,0 +1,8 @@
+numpy
+scipy
+sklearn
+matplotlib
+tqdm
+tkinter
+pycocotools
+nibabel
